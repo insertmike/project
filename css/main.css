@@ -222,13 +222,10 @@ nav .overlay {
     color: #222222;
     margin:  5rem 1rem 2rem 1rem;
   }
-<<<<<<< HEAD
-=======
   .text-center{
     display: flex;
     justify-content: center;
   }
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
   .industry-description{
     font-style: normal;
     font-weight: normal;
@@ -377,10 +374,6 @@ color: #222222;
   display: flex;
   color: #848484;
   font-size: 12px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
 }
 .about-nav-curr{
   color: #DC7000;
@@ -608,10 +601,7 @@ color: #222222;
 .loop-main{
   font-size: 15px;
   line-height: 22px;
-<<<<<<< HEAD
   width: 90%;
-=======
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
 }
 .loop-card{
   width: 80%;
@@ -809,6 +799,9 @@ color: #000;
 .section-4{
   width: 20%;
 }
+
+
+
 
 
 
@@ -1018,37 +1011,6 @@ footer h3{
   margin-left: auto;
   margin-right: auto;
 }
-<<<<<<< HEAD
-
-
-
-
-/* Contact Us Dekstop Version */
-
-.navWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.wrapper h1{
-text-align: center;
-}
-
-.wrapper h1 br {
-  display: none;
-}
-
-
-.wrapper p  {
-font-size: 0.8rem;
-color: rgb(117, 117, 117);
-text-align: center;
-}
-
-.wrapper p br {
-  display:none;
-=======
 /* 
 
 */
@@ -1436,19 +1398,11 @@ element.style {
 }
 .first{
   margin-top: -3rem;
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
 }
 
 
 
 
-<<<<<<< HEAD
-
-
-/******************************************************** MOBILE STARTS HERE */
-
-@media only screen and (max-width : 480px) {
-=======
 .info{
   padding: 2rem;
 }
@@ -1481,7 +1435,36 @@ element.style {
 .cont{
   display: flex;
 }
+
+br{
+  display: none;
+  }
+
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;  
+}
+
 @media only screen and (max-width : 480px) {
+  .map{
+    width: 330px;
+    height: 221.42px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding:0;
+  }
+
+
+
+
+ br{
+    display: initial;
+    }
+
+
   .cont{
     display: initial;
   }
@@ -1529,7 +1512,6 @@ element.style {
     margin-left: -80px;
     border: 0px solid #EEEFF2;
   }
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
   .goal-section{
     padding: 0;
   }
@@ -2192,11 +2174,7 @@ color: #525252;
   }
 
   .play-btn{
-<<<<<<< HEAD
-    width: 28.36px;
-=======
     width: 28.36px !important;
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
     height: 27px;
     position: absolute;
     left: 50%;
@@ -2449,13 +2427,7 @@ line-height: 19px;
     margin-top: 2rem;
   }
 
-  .map{
-    width: 330px;
-    height: 221.42px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-  }
+
   .about-info{
     margin-left: 2rem;
     display: flex;
@@ -2527,10 +2499,6 @@ line-height: 19px;
     padding-bottom: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
   }
   
   .get-in-touch h2{
@@ -2559,11 +2527,7 @@ line-height: 19px;
   } 
   .get-in-touch .btn-primary{
     position: absolute;
-<<<<<<< HEAD
     right: 2rem;
-=======
-    right: -6%;
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
     border-radius: 10px;
   }
 
@@ -2595,11 +2559,7 @@ letter-spacing: -0.3px;
 
   .get-in-touch .input-field-name input{    
     height: 48.51px;
-<<<<<<< HEAD
     width: 100%;    
-=======
-    
->>>>>>> 7b76c18ebaf096a8dd46ed60b36ac87676b947cc
   }
   
   .get-in-touch .input-field-mail input{
