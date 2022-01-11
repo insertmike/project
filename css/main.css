@@ -1011,6 +1011,30 @@ footer h3{
 
 /* Contact Us Dekstop Version */
 
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h1{
+text-align: center;
+}
+
+.wrapper h1 br {
+  display: none;
+}
+
+
+.wrapper p  {
+font-size: 0.8rem;
+color: rgb(117, 117, 117);
+text-align: center;
+}
+
+.wrapper p br {
+  display:none;
+}
 
 
 
