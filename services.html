@@ -28,8 +28,15 @@
   <div class="wrapper">
     <header>
       <img src="/img/logo.svg" alt="LOGO" />
-
-      <a class="menu-mobile"href="./news.html"><img src="/img/Menu.svg" alt="Menu" /></a>
+      <div class="links mobile-hidden">
+        <a  href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a class="dot"  href="./services.html">Services</a>
+        <a  href="./news.html">News</a>
+        <a class="contact-link" href="">Contact us</a>
+      </div>
+      
+      <a class="menu-mobile web-hidden"href="./about.html"><img src="/img/Menu.svg" alt="Menu" /></a>
     </header>
 
     <div class="content content-services">
@@ -150,8 +157,8 @@
           </div>
         </div>
 
-        <div class="cont">
-          <div class="cont-left">
+        <div class="cont" style="flex-direction: row-reverse;">
+          <div class="cont-right">
             <div class="info">
               <div class="info-title">
                 Lorem Ipsum is simply dummy<br> text dummy text
@@ -163,7 +170,7 @@
               <button class="btn btn-primary">Read More</button>
             </div>
           </div>
-          <div class="cont-right">
+          <div class="cont-left">
             <img src="./img/VR.png" alt="" class="infoImg">
           </div>
         </div>
@@ -198,11 +205,11 @@
 
         </div>
         
-        <div class="reviews">
-            <div class="reviews-wrapper">
-                
-            </div>
-            <div class="review-card">
+       
+          <div id="scrollWrapper" class="scrolling-wrapper">
+            <div class="reviews">
+          
+              <div class="review-card">
                 <div class="review-card-header">
                     <div class="profile">
                         <div class="profile-pic">
@@ -226,23 +233,106 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="loop" style="padding-top: 4rem;">
-
-            <div class="loop-main">
-              <div class="loop-title">
-                <p>Lorem Ipsum</p>
-              </div>
-              <div class="loop-description">
-                <p>Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</p>
-              </div>
-              <div class="loop-card">
-                <div class="loop-header">
-                  <p>Stay in the loop</p>
+              <div class="review-card" style="border: 2px solid #DDDDDD;">
+                <div class="review-card-header">
+                    <div class="profile">
+                        <div class="profile-pic">
+                            <img src="./img/Person.png" alt="">
+                        </div>
+                        <div class="profile-person">
+                            <p class="name">
+                                Viezh Robert
+                            </p>
+                            <p class="country">
+                                Warsaw, Poland
+                            </p>
+                        </div>                        
+                    </div>
+                    <div class="score">
+                        <p>4.5</p>
+                        <img src="./star.png" alt="">
+                    </div>
                 </div>
-                <div class="loop-main">
-                  <p>Subscribe to receive the latest news and updates about TDA. We promise not to spam you</p>
+                <div class="review-card-content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div>
+            </div>
+            <div class="review-card" style="border: 2px solid #DDDDDD;">
+              <div class="review-card-header">
+                  <div class="profile">
+                      <div class="profile-pic">
+                          <img src="./img/Person.png" alt="">
+                      </div>
+                      <div class="profile-person">
+                          <p class="name">
+                              Viezh Robert
+                          </p>
+                          <p class="country">
+                              Warsaw, Poland
+                          </p>
+                      </div>                        
+                  </div>
+                  <div class="score">
+                      <p>4.5</p>
+                      <img src="./star.png" alt="">
+                  </div>
+              </div>
+              <div class="review-card-content">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              </div>
+          </div>
+            <div class="review-card" style="border: 2px solid #DDDDDD;">
+              <div class="review-card-header">
+                  <div class="profile">
+                      <div class="profile-pic">
+                          <img src="./img/Person.png" alt="">
+                      </div>
+                      <div class="profile-person">
+                          <p class="name">
+                              Viezh Robert
+                          </p>
+                          <p class="country">
+                              Warsaw, Poland
+                          </p>
+                      </div>                        
+                  </div>
+                  <div class="score">
+                      <p>4.5</p>
+                      <img src="./star.png" alt="">
+                  </div>
+              </div>
+              <div class="review-card-content">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              </div>
+          </div>
+            </div>
+          </div>
+          
+          
+      
+        </div>
+        </div>
+        <div class="loop">
+
+          <div class="loop-header web-hidden">
+            <img src="img/b6037c718d06eccda032139f4994d3f0 1.png" alt="">
+          </div>
+          <div class="loop-main">
+            <div class="loop-title">
+              <p>Lorem Ipsum</p>
+            </div>
+            <div class="loop-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="center-web">
+              <div class="loop-card">
+                <div class="left">
+                  <div class="loop-header">
+                    <p>Stay in the loop</p>
+                  </div>
+                  <div class="loop-main">
+                    <p>Subscribe to receive the latest news and updates about TDA. We promise not to spam you</p>
+                  </div>
                 </div>
                 <div class="loop-contact">
                   <input placeholder="&nbsp;Enter email address" type="text" name="" id="">
@@ -250,12 +340,44 @@
                 </div>
               </div>
             </div>
-
+           
           </div>
+
+        </div>
 
     </div>
     <footer>
-      Copyright ® 2021 Company All rights Rcerved
+      <div class="top-footer mobile-hidden">
+        <div class="section-1 mobile-hidden">
+          <h3>LOGO</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          <p>@Company.com</p>
+        </div>
+        <div class="section-2 mobile-hidden">
+          <p>About us</p>
+          <p>Company</p>
+          <p>Portfolio</p>
+          <p>Careers</p>
+          <p>Contact us</p>
+        </div>
+        <div class="section-3 mobile-hidden">
+          <p>Contact us</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          <p>+9000 00000 000</p>
+        </div>
+        <div class="section-4 x mobile-hidden">
+          <div class="networks">
+            <img src="./img/fb.png" alt="">
+            <img src="./img/insta.png" alt="">
+            <img src="./img/twitter.png" alt="">
+            <img src="./img/link.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+     
+      <div class="line mobile-hidden" style="width: 100%"></div>
+      
+      <p>Copyright ® 2021 Company All rights Rcerved</p>
     </footer>
   </div>
 

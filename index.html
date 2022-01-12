@@ -24,11 +24,30 @@
 
 <body>
 
-  <div class="wrapper">
+  <div class="wrapper-index">
     <header>
       <img src="/img/logo.svg" alt="LOGO" />
+      <div class="links mobile-hidden">
+        <a class="dot" href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./services.html">Services</a>
+        <a href="./news.html">News</a>
+        <a class="./contact-us.html" href="">Contact us</a>
+      </div>
+      
+      <div id="hiddenNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" id="closeNav">×</a>
+        <div class="overlay-content">
+          <a class="dot" href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+          <a href="./services.html">Services</a>
+          <a href="./news.html">News</a>
+          <a class="./contact-us.html" href="">Contact us</a>
+        </div>
+      </div>
 
-      <a class="menu-mobile"href="./about.html"><img src="/img/Menu.svg" alt="Menu" /></a>
+      
+      <a id="openNav" class="menu-mobile web-hidden" ><img src="/img/Menu.svg" alt="Menu" /></a>
     </header>
 
     <div class="content">
@@ -103,19 +122,10 @@
             <p class="features-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
           <div class="features-main">
-            <div class="feature-cards">
-              <div class="features-card"style="background-color: white;">
-                <button class="features-card-btn" ><p style="color: green;">Lorem ipsum</p></button>
-                <div>
-                  <p class="feature-card-title"<big>Lorem Ipsum</big></p>
-                  <p class="feature-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-                <div class="feature-card-footer">
-                  <button class="feature-card-readmore" style="background: transparent;"><p style="color: orange;">Read more</p><img src="/img/Klein-Pfeil-nach-rechts.svg"/></button>
-                </div>
-                </div>
-                <div class="features-card mobile-hidden"style="background-color: white;">
-                  <button class="features-card-btn" style="background: #DC00001A;" ><p style="color: red;">Lorem ipsum</p></button>
+            <div id="scrollWrapper" class="scrolling-wrapper">
+              <div class="feature-cards">
+                <div class="scrolling-card features-card"style="background-color: white;">
+                  <button class="features-card-btn" ><p style="color: green;">Lorem ipsum</p></button>
                   <div>
                     <p class="feature-card-title"<big>Lorem Ipsum</big></p>
                     <p class="feature-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -124,8 +134,8 @@
                     <button class="feature-card-readmore" style="background: transparent;"><p style="color: orange;">Read more</p><img src="/img/Klein-Pfeil-nach-rechts.svg"/></button>
                   </div>
                   </div>
-                  <div class="features-card mobile-hidden" style="background-color: white;">
-                    <button class="features-card-btn"  style="background-color: #B000DC1C"><p style="color: #B000DC;">Lorem ipsum</p></button>
+                  <div class="scrolling-card features-card"style="background-color: white;">
+                    <button class="features-card-btn" ><p style="color: green;">Lorem ipsum</p></button>
                     <div>
                       <p class="feature-card-title"<big>Lorem Ipsum</big></p>
                       <p class="feature-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -134,13 +144,47 @@
                       <button class="feature-card-readmore" style="background: transparent;"><p style="color: orange;">Read more</p><img src="/img/Klein-Pfeil-nach-rechts.svg"/></button>
                     </div>
                     </div>
+                  <div class=" scrolling-card features-card"style="background-color: white;">
+                    <button class="features-card-btn" style="background: #DC00001A;" ><p style="color: red;">Lorem ipsum</p></button>
+                    <div>
+                      <p class="feature-card-title"<big>Lorem Ipsum</big></p>
+                      <p class="feature-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                    <div class="feature-card-footer">
+                      <button class="feature-card-readmore" style="background: transparent;"><p style="color: orange;">Read more</p><img src="/img/Klein-Pfeil-nach-rechts.svg"/></button>
+                    </div>
+                    </div>
+                    <div class="scrolling-card features-card" style="background-color: white;">
+                      <button class="features-card-btn"  style="background-color: #B000DC1C"><p style="color: #B000DC;">Lorem ipsum</p></button>
+                      <div>
+                        <p class="feature-card-title"<big>Lorem Ipsum</big></p>
+                        <p class="feature-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                      </div>
+                      <div class="feature-card-footer">
+                        <button class="feature-card-readmore" style="background: transparent;"><p style="color: orange;">Read more</p><img src="/img/Klein-Pfeil-nach-rechts.svg"/></button>
+                      </div>
+                      </div>
+                      <div class="scrolling-card features-card"style="background-color: white;">
+                        <button class="features-card-btn" ><p style="color: green;">Lorem ipsum</p></button>
+                        <div>
+                          <p class="feature-card-title"<big>Lorem Ipsum</big></p>
+                          <p class="feature-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="feature-card-footer">
+                          <button class="feature-card-readmore" style="background: transparent;"><p style="color: orange;">Read more</p><img src="/img/Klein-Pfeil-nach-rechts.svg"/></button>
+                        </div>
+                        </div>
+              </div>
             </div>
+        
           
 
-          <div class="features-nav">
-            <img class="features-nav-left" src="/img/Kleiner-als.svg" alt="<" />
-            <img class="features-nav-right" src="/img/Groesser-als.svg" />
-          </div>
+
+        </div>
+        <div class="features-nav">
+          <span id="featureNavLeft"><img class="features-nav-left" src="/img/Kleiner-als.svg" alt="" /></span>
+          <span id="featureNavRight"><img class="features-nav-right" src="/img/Groesser-als.svg" /></span>
+          
         </div>
       </div>
         <div class="projects">
